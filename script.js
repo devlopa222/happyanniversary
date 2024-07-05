@@ -25,7 +25,7 @@ function checkAnswers() {
     // Question 2
     const q2 = document.getElementById('q2').value;
     const answer2 = document.getElementById('answer2');
-    if (q2.toLowerCase().includes("when we got home to madrid and went to pick up some lebanese food 40 minutes away, life with you just felt like peace".toLowerCase())) {
+    if (q2.toLowerCase().trim() === "when we got home to madrid and went to pick up some lebanese food 40 minutes away, life with you just felt like peace".toLowerCase()) {
         answer2.textContent = "Correct!";
         score++;
     } else {
@@ -47,7 +47,7 @@ function checkAnswers() {
     // Question 4
     const q4 = document.getElementById('q4').value;
     const answer4 = document.getElementById('answer4');
-    if (q4.toLowerCase() === "fortnite") {
+    if (q4.toLowerCase().trim() === "fortnite") {
         answer4.textContent = "Correct!";
         score++;
     } else {
@@ -78,4 +78,50 @@ function checkAnswers() {
     answer6.style.display = "block";
 
     // Question 7
-    const q
+    const q7 = document.getElementById('q7').value;
+    const answer7 = document.getElementById('answer7');
+    if (q7.toLowerCase().trim() === "jumping in fountains") {
+        answer7.textContent = "Correct!";
+        score++;
+    } else {
+        answer7.textContent = "The correct answer is: Jumping in fountains.";
+    }
+    answer7.style.display = "block";
+
+    // Question 8
+    const q8 = document.getElementById('q8').value;
+    const answer8 = document.getElementById('answer8');
+    if (q8.toLowerCase().trim() === "dancing on the street") {
+        answer8.textContent = "Correct!";
+        score++;
+    } else {
+        answer8.textContent = "The correct answer is: Dancing on the street.";
+    }
+    answer8.style.display = "block";
+
+    // Question 9
+    const q9 = document.getElementById('q9').value;
+    const answer9 = document.getElementById('answer9');
+    if (q9.toLowerCase().trim() === "you love me more") {
+        answer9.textContent = "Correct!";
+        score++;
+    } else {
+        answer9.textContent = "The correct answer is: You love me more.";
+    }
+    answer9.style.display = "block";
+
+    // Question 10
+    const q10 = document.getElementById('q10').value;
+    const answer10 = document.getElementById('answer10');
+    if (q10.toLowerCase().trim() === "in your arms") {
+        answer10.textContent = "Correct!";
+        score++;
+    } else {
+        answer10.textContent = "The correct answer is: In your arms.";
+    }
+    answer10.style.display = "block";
+
+    // Display score
+    const scoreDisplay = document.getElementById('score');
+    scoreDisplay.textContent = `Your score is ${score} out of ${totalQuestions}.`;
+}
