@@ -25,11 +25,11 @@ function checkAnswers() {
     // Question 2
     const q2 = document.getElementById('q2').value;
     const answer2 = document.getElementById('answer2');
-    if (q2.toLowerCase().trim() === "when we got home to madrid and went to pick up some lebanese food 40 minutes away, life with you just felt like peace".toLowerCase()) {
+    if (q2.toLowerCase().trim() === "when we got home in madrid and went to pick up some lebanese food 40 minutes away, life with you just felt like peace. I remember that all of the troubles felt like they were washing away. You have a beautiful soul and bring this sort of serenity into my life that is really hard to explain".toLowerCase()) {
         answer2.textContent = "Correct!";
         score++;
     } else {
-        answer2.textContent = "The correct answer is: When we got home to Madrid and went to pick up some Lebanese food 40 minutes away, life with you just felt like peace.";
+        answer2.textContent = "The correct answer is: When we got home to Madrid and went to pick up some Lebanese food 40 minutes away, life with you just felt like peace. I remember that all of the troubles felt like they were washing away. You have a beautiful soul and bring this sort of serenity into my life that is really hard to explain";
     }
     answer2.style.display = "block";
 
