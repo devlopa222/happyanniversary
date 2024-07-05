@@ -70,4 +70,13 @@ function checkAnswers() {
 
     // Question 9
     const q9 = document.getElementById('q9').value;
-    const answer9
+    const answer9 = document.getElementById('answer9');
+    answer9.textContent = "The correct answer is: ME.";
+    answer9.style.display = "block";
+
+    // Question 10
+    const q10 = document.getElementById('q10').value;
+    const answer10 = document.getElementById('answer10');
+    answer10.textContent = "The correct answer is: Your arms.";
+    answer10.style.display = "block";
+}
