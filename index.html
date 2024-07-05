@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 2 Year Anniversary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <h1>Happy 2 Year Anniversary</h1>
+    </header>
+    <div id="quiz-container">
+        <form id="quiz">
+            <!-- Question 1 -->
+            <div class="question">
+                <p>Where did we meet?</p>
+                <label><input type="radio" name="q1" value="wrong1"> A café in Paris</label>
+                <label><input type="radio" name="q1" value="wrong2"> A park in Berlin</label>
+                <label><input type="radio" name="q1" value="wrong3"> A bookstore in London</label>
+                <label><input type="radio" name="q1" value="correct"> Charles University in Prague</label>
+                <p class="answer" id="answer1"></p>
+            </div>
+            <!-- Question 2 -->
+            <div class="question">
+                <p>When did I realize we were soulmates?</p>
+                <input type="text" name="q2" id="q2">
+                <p class="answer" id="answer2"></p>
+            </div>
+            <!-- Question 3 -->
+            <div class="question">
+                <p>How many countries have we been in together?</p>
+                <label><input type="radio" name="q3" value="wrong1"> 5</label>
+                <label><input type="radio" name="q3" value="wrong2"> 7</label>
+                <label><input type="radio" name="q3" value="wrong3"> 10</label>
+                <label><input type="radio" name="q3" value="correct"> 9</label>
+                <p class="answer" id="answer3"></p>
+            </div>
+            <!-- Question 4 -->
+            <div class="question">
+                <p>What game did we first play together?</p>
+                <input type="text" name="q4" id="q4">
+                <p class="answer" id="answer4"></p>
+            </div>
+            <!-- Question 5 -->
+            <div class="question">
+                <p>What was the first meal we shared together?</p>
+                <input type="text" name="q5" id="q5">
+                <p class="answer" id="answer5"></p>
+            </div>
+            <!-- Question 6 -->
+            <div class="question">
+                <p>Where did we first become girlfriend and boyfriend?</p>
+                <label><input type="radio" name="q6" value="wrong1"> Romantic getaway</label>
+                <label><input type="radio" name="q6" value="wrong2"> At a dinner</label>
+                <label><input type="radio" name="q6" value="correct"> In a swamp</label>
+                <p class="answer" id="answer6"></p>
+            </div>
+            <!-- Question 7 -->
+            <div class="question">
+                <p>What was our first crackhead activity?</p>
+                <input type="text" name="q7" id="q7">
+                <p class="answer" id="answer7"></p>
+            </div>
+            <!-- Question 8 -->
+            <div class="question">
+                <p>What was our last crackhead activity?</p>
+                <input type="text" name="q8" id="q8">
+                <p class="answer" id="answer8"></p>
+            </div>
+            <!-- Question 9 -->
+            <div class="question">
+                <p>Who loves who more?</p>
+                <input type="text" name="q9" id="q9">
+                <p class="answer" id="answer9"></p>
+            </div>
+            <!-- Question 10 -->
+            <div class="question">
+                <p>Where do I feel the safest in the world?</p>
+                <input type="text" name="q10" id="q10">
+                <p class="answer" id="answer10"></p>
+            </div>
+            <button type="button" onclick="checkAnswers()">Submit Answers</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
