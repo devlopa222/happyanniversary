@@ -113,11 +113,11 @@ function checkAnswers() {
     // Question 10
     const q10 = document.getElementById('q10').value;
     const answer10 = document.getElementById('answer10');
-    if (q10.toLowerCase().trim() === "your arms") {
+    if (q10.toLowerCase().trim() === "your arms. I want to take a moment to thank you for the relationship and love that we share. I truly want the best for you and I am excited to begin to live and build a life with you. I am your #1 supporter and I can't wait to be by your side for every achievement. You are determined, kind hearted, loving and also the funniest person I know. I am so in love with you.") {
         answer10.textContent = "Correct!";
         score++;
     } else {
-        answer10.textContent = "The correct answer is: Your arms. I want to take a moment to thank you for the relationship and love that we share. I truly want the best for you and I am excited to begin to live and build a life with you. I am your #1 supporter and I can't wait to be by your side for every achievement. You are determined, kind hearted, loving and most importantly the funniest person I know. I am so in love with you.";
+        answer10.textContent = "The correct answer is: Your arms. I want to take a moment to thank you for the relationship and love that we share. I truly want the best for you and I am excited to begin to live and build a life with you. I am your #1 supporter and I can't wait to be by your side for every achievement. You are determined, kind hearted, loving and also the funniest person I know. I am so in love with you.";
     }
     answer10.style.display = "block";
 
